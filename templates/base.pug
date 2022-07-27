@@ -1,0 +1,35 @@
+doctype html
+html
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Chat Application
+
+    block style
+        link(rel="stylesheet" href="/static/css/style.css")
+        link(rel="stylesheet" href="/static/css/about.css")
+    block scripts
+      //- to connect with the server
+      
+      
+
+  body
+    block navigation 
+        nav.nav
+            ul.nav__list 
+                li.list__item 
+                    a.nav__link(href="/") Home
+                li.list__item 
+                    a.nav__link(href="/about") About
+                li.list__item 
+                    a.nav__link(href="mailto:alibutt200235@gmail.com") Contact
+    block content
+    block footer
+        footer 
+            div.foot__container
+                a.nav__link(href="https://github.com/Elee-Lawleit" target="_blank") GitHub
+                ||
+                p.nav__link.foot__para Elee Lawleit
+                ||
+                a.nav__link(href="https://www.linkedin.com/in/muhammad-ali-36a101216/" target="_blank") LinkedIn

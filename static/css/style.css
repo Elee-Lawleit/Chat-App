@@ -1,0 +1,113 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+.nav{
+    background-color: black;
+    margin: auto;
+    padding: 0 2em;
+}
+.nav__list{
+    display: flex;
+    list-style: none;
+}
+.nav__link{
+    display: inline-block;
+    padding: .7em .7em;
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    transition: background-color .09s;
+}
+.nav__link:hover{
+    background-color: white;
+    color: black;
+}
+.container{
+    height: 79vh;
+    margin: auto;
+    padding: 1em;
+    overflow: auto;
+}
+
+.message{
+    height: auto;
+    max-width: 40%;
+    padding: 1em 2em;
+    background-color: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    margin-block: 3px;
+}
+
+.right{
+    float: right;
+    clear: both;
+    outline: none;
+    border-radius: 50px;
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #605c45 74%);
+}
+
+.left{
+    float: left;
+    clear: both;
+    outline: none;
+    border-radius: 50px;
+    background-image: linear-gradient(315deg, #463c3c 0%, #2e2d3c 74%);
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+#input{
+    padding-inline: 1em;
+    width: 100%;
+    outline: 0;
+    font-size: 1.5rem;
+    margin: 0 .1em;
+    box-shadow: none;
+}
+.btn{
+    padding-block: 1em;
+    padding-inline: 1.6em;
+    background-color: #161514;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: #252321;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.foot__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot__para{
+    cursor: default;
+}
+.foot__para:hover{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,12 @@
+.about__container{
+    min-height: 85.2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-family: 'Robot', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    max-width: 50%;
+}
